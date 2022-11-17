@@ -1,0 +1,69 @@
+@charset "utf-8";
+
+* {
+	font-family: serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	height: 300px;
+	
+	/* 答え */
+	background: url('../images/estudio-bloom-Al0geA4zDqw-unsplash.jpg'); /* <a href="https://unsplash.com/ja?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>の<a href="https://unsplash.com/@estudiobloom?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Estúdio Bloom</a>が撮影した写真 */
+	background-size: cover;
+	background-position: 0 -100px;
+}
+
+h1 {
+	padding-top: 2rem;
+	font-size: 5rem;
+	color: white;
+	text-align: center;
+}
+
+.author {
+	margin-right: 5rem;
+	font-size: 3rem;
+	color: white;
+	text-align: right;
+}
+
+.contents {
+	padding: 5rem;
+	background: rgba(255,255,0,0.05);	/* 文庫本の紙の色をイメージして、本文全体に薄黄色を敷く */
+}
+
+p {
+	font-size: 2rem;
+	line-height: 5rem;
+}
+
+p img {
+	margin: 3rem;
+}
+
+/* 答え */
+p img.right {
+	float: right;
+}
+
+/* 答え */
+p img.left {
+	float: left;
+}
+
+hr {
+	margin-top: 10rem;
+	margin-bottom: 5rem;
+}
+
+/* 答え */
+footer {
+	clear: both;
+}
+
+footer p {
+	font-size: 1.5rem;
+	line-height: 3rem;
+}
