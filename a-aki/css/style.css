@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+* {
+	font-family: serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	height: 300px;
+	/* 背景を敷いた時には有効にして下さい。
+	color: white;
+	*/
+}
+
+h1 {
+	padding-top: 2rem;
+	font-size: 5rem;
+	text-align: center;
+}
+
+.author {
+	margin-right: 5rem;
+	font-size: 3rem;
+	text-align: right;
+}
+
+.contents {
+	padding: 5rem;
+	background: rgba(255,255,0,0.05);	/* 文庫本の紙の色をイメージして、本文全体に薄黄色を敷く */
+}
+
+p {
+	font-size: 2rem;
+	line-height: 5rem;
+}
+
+p img {
+	margin: 3rem;
+}
+
+hr {
+	margin-top: 10rem;
+	margin-bottom: 5rem;
+}
+
+footer p {
+	font-size: 1.5rem;
+	line-height: 3rem;
+}
