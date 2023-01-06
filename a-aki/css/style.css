@@ -58,10 +58,15 @@ hr {
 	margin-bottom: 5rem;
 }
 
-/* 答え */
+/*
+メモ：
+float を指定した画像が十分に上の方にあるため、この場所にfloat の影響はなく、clear:both; を入れる必要はない。
+ただし、float を使用した場合にはその後続で clear:both; する必要があるかどうかを必ず確かめること。
+
 footer {
 	clear: both;
 }
+*/
 
 footer p {
 	font-size: 1.5rem;
